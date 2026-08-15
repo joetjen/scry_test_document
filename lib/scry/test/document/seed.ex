@@ -1,7 +1,7 @@
 defmodule Scry.Test.Document.Seed do
   @moduledoc """
-  A small library document tree, deliberately shaped after
-  `lang_spec.md` §8.3's own worked example
+  A small library document tree, deliberately shaped after a worked
+  example
   (`library.catalog.shelves.shelf.books.book`) -- a real hierarchy deep
   enough to exercise `DEEP` (matching at any depth) and `PARENT`/
   `SIBLINGS`/`ANCESTORS` (multiple sibling shelves/books at more than

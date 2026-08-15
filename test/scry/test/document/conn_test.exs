@@ -29,7 +29,7 @@ defmodule Scry.Test.Document.ConnTest do
     assert titles == ["Dune", "Foundation", "Sapiens"]
   end
 
-  test "the lang_spec.md §8.3 worked example runs correctly against this fixture" do
+  test "the full worked example runs correctly against this fixture" do
     assert [row] =
              run!(
                "SELECT library.catalog.shelves.fiction.books.book WHERE price > 30 AND available = true { title, PARENT { PARENT { category } }, ANCESTORS { region } }"

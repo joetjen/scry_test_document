@@ -3,7 +3,7 @@
 Shared test fixtures for
 [`scry_document`](https://github.com/joetjen/scry_document): one seed
 dataset (`Scry.Test.Document.Seed`) — a small library document tree,
-shaped after `lang_spec.md` §8.3's own worked example
+shaped after a worked example
 (`library.catalog.shelves.shelf.books.book`) — servable through
 `Scry.Test.Document.Conn.tree/0`.
 
@@ -23,8 +23,7 @@ kind's own future real adapter's test suite, once one exists) plus
 `scry_core`'s own `mix scry.query`/`mix scry.iex`, configured here, for
 ad-hoc exploration.
 
-Source: <https://github.com/joetjen/scry_test_document>. Specs live in
-the separate [`scry`](https://github.com/joetjen/scry) repository; the
+Source: <https://github.com/joetjen/scry_test_document>. The
 kind this exercises lives in
 [`scry_document`](https://github.com/joetjen/scry_document).
 
